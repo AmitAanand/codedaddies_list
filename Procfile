@@ -1,1 +1,1 @@
-web: gunicorn codedaddies.wsgi --log-file -
+web: gunicorn codedaddies_list.wsgi --log-file -
