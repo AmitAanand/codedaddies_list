@@ -28,7 +28,7 @@ def new_search(request):
 
     final_postings = []
     for post in post_listings:
-        post_title = post.find(class_='result-title').text
+        post_title = post.find(class_='lister-item-header').text
         post_url = post.find('a').get('href')
 
         if post.find(class_= 'result-price'):
